@@ -22,3 +22,4 @@ Examples of AI Limitations
 Verification
 
 The project files and changes are checked manually against the assignment requirements. AI suggestions are reviewed and tested before being used in the project.
+Milestone 1: Project structure, static frontend, SPA navigation, and draft ERD completed
