@@ -1,0 +1,24 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+backend/logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+vendor/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+
+# Local configuration files with secrets
+backend/config/*
+!backend/config/.gitkeep

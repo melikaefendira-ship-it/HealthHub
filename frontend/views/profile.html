@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthHub | Profile</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>HealthHub</h1>
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="entities.html">Health Data</a>
+            <a href="profile.html">Profile</a>
+            <a href="login.html">Log In</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="welcome">
+            <h2>My Profile</h2>
+            <p>Manage your personal information and health goals.</p>
+        </section>
+
+        <section class="form-container">
+            <h2>Personal Information</h2>
+
+            <form id="profileForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Enter your name"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                    >
+                </div>
+
+                <button type="submit" class="button">
+                    Save Changes
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>HealthHub — Educational project, not medical advice.</p>
+    </footer>
+
+</body>
+</html>
