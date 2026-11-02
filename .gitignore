@@ -22,3 +22,5 @@ Thumbs.db
 # Local configuration files with secrets
 backend/config/*
 !backend/config/.gitkeep
+!backend/config/config.example.php
+!backend/config/database.php
